@@ -3,13 +3,12 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Array y odject</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.o">
+    <title>Calculadora</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav >
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="ejemplocal.html">Ejemplocal</a></li>
@@ -22,14 +21,24 @@
         </nav>
     </header>
     <main>
-        <h1>Array y Object</h1>
-        <h3>Lista de frutas</h3>
-        <ul id="listaFrutas"></ul>
-        <h3>Lista de contactos</h3>
-        <ul id="listaContactos"></ul>
+        <h1>CALCULADORA</h1>
+
+        <form>
+            <input type="text" id="txtNumero1" placeholder="numero1">
+            <br />
+            <br />
+            <input type="text" id="txtNumero2" placeholder="numero2">
+            <br />
+            <br />
+            <input type="text" id="txtResultado" placeholder="Total" disabled>
+            <br />
+            <br />
+            <button type="button" onclick="calcular()">Calcular</button>
+            <button type="reset">Cancelar</button>
+        </form>
+
     </main>
     <footer></footer>
-
-    <script src="js/ejemplo1.js"></script>
+    <script src="js/ejemplocal.js"></script>
 </body>
 </html>
