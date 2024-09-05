@@ -71,3 +71,37 @@ nav ul {
                 background-color: #808080;
             }
 
+
+img {
+    float: left; /* o float: right; */
+
+}
+img {
+    margin-top: 20px; /* o margin-bottom: 20px; */
+
+
+}
+img {
+    margin-left: auto;
+}
+
+tabla {
+    margin: 0 auto;
+}
+.contenedor-tabla {
+    display: flex;
+    justify-content: center;
+}
+
+tabla {
+    /* Estilos de la tabla */
+}
+.contenedor-tabla {
+    text-align: center;
+}
+
+
+
+tabla {
+    text-align: center;
+}
